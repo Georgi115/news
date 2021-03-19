@@ -1,0 +1,115 @@
+.listItemNews{
+    display: flex;
+    flex-wrap: wrap;
+}
+.headerNews{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.right-header{
+    display: flex;
+    
+}
+.right-header h3{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-right: 15px;
+}
+
+.right-header span {
+    color: rgba(23, 23, 25, 0.3);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.left-header i {
+    margin-right:18px ;
+    opacity: 0.3;
+}
+
+.img{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 245px;
+    height: 138px;
+}
+
+.titleNews{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 16px;
+margin-top: 8px;
+margin-bottom: 8px;
+width: 245px;
+}
+.description{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: rgba(23, 23, 25, 0.3);
+}
+
+.textToNews a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color:black
+}
+
+.listItemNews{
+    margin-top: 20px;
+}
+
+.itemNews{
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+.left-header .list{
+    opacity: 1;
+}
+
+.left-header .listCube{
+    opacity: 1;
+}
+
+.flexDir{
+    flex-direction: column;
+}
+
+.itemNewsTwo{
+    display: flex;
+}
+
+.titleNewsTwo{
+    margin-top: 0;
+    font-size: 19px;
+    width: auto;
+}
+
+.textToNewsTwo{
+    width: 90%;
+    margin-left: 10px;
+}
+
+.description-text{
+    color: #000;
+   
+}

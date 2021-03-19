@@ -1,0 +1,225 @@
+.startPage .part1 {
+    height: 15px;
+    width: 15px;
+}
+.container{
+    max-width: 1040px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.startPage{
+    height: 100%;
+    position: relative;
+}
+.startPageTwo{
+    height: auto;
+}
+.startPage .part2{
+    height: 15px;
+    width: 15px;
+}
+.startPage .part3{
+    height: 15px;
+    width: 15px;
+}
+
+.startPage .logo{
+    display: block;
+    margin-right: 50px;
+}
+
+
+
+.left-list ul {
+    list-style-type: none;
+    color: #1390E5;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.left-list ul li{
+    margin-right: 40px;
+    border-bottom: 2px solid #1390E5;
+}
+
+.left-list ul li:last-child{
+    margin: 0;
+}
+
+.left-list {
+    display: flex;
+    align-items: center;
+}
+
+
+.right-list{
+    color: #1390E5;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    cursor: pointer;
+    
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:  80px;
+    border-bottom: 1px solid #F1F1F1;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+.searchPanel{
+    height: 79%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.blockSearch h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 52px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.blockSearch input {
+    width: 668px;
+    height: 52px;
+    border: 1px solid rgba(23, 23, 25, 0.2);
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    padding: 14px 0px 14px 14px;
+    font-family: Roboto;
+    font-style: normal; 
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #272727;
+}
+
+.blockSearch input::placeholder{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #272727;
+    opacity: 0.3
+}
+
+.blockSearch input:focus{
+    background: rgba(197, 228, 249, 0.3);
+    border: 1px solid #1390E5;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.blockSearch button {
+    height: 51px;
+    width: 150px;
+    background: #1390E5;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 0;
+    margin:0;
+    outline: none;
+}
+
+
+.blockSearch div{
+    position: relative;
+}
+
+.blockSearch i{
+    position: absolute;
+    right: 16%;
+    top: 19%;
+   color: #1390E5;
+   cursor: pointer;
+}
+
+
+
+
+
+.blockSearch .titleSearch{
+    text-align: start;
+    margin-bottom: 12px;
+}
+
+.searchPanelTwo{
+    display: block;
+}
+
+.blockSearch .inputSearch {
+    width: 890px;
+}
+
+.blockSearch .dropHeart{
+    position: absolute;
+    height: 50px;
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.11);
+    right: 150px;
+    top: -50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: none;
+}
+
+.left-list .default{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;   
+    display: flex;
+    align-items: center;
+    text-align: center;    
+    color: #2727275e;
+    border: none;
+    cursor: pointer;
+}
+
+.triggerMenu{ 
+    position: absolute;
+    color: #1390E5;
+    left: 0;
+    transition: linear all .5s;
+}
+
+.triggerMenuTwo{
+    position: absolute;
+    color: #1390E5;
+    left: 35%;
+    transform: rotate(180deg);
+    transition: linear all .5s;
+}

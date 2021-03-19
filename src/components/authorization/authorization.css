@@ -1,0 +1,134 @@
+.Authorization{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formsDiv{
+    background-color: #fafafa49;
+    width: 510px;
+    height: 520px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.part1{
+    background: #35A2EC;
+    width: 25px;
+    height: 25px;
+    transform: matrix(-1, 1, 0, 1, 0, 0);
+}
+
+.part2{
+    background: #1180CB;
+    width: 25px;
+    height: 25px;
+    transform:  matrix(1, 1, 0, 1, 0, 0);
+}
+
+.part3{
+    background: #1390E5;
+    width: 25px;
+    height: 25px;
+    transform:  matrix(-1, 1, 0, 1, 0, 0);
+}
+
+.content h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.formDiv h6{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(23, 23, 25, 0.3)
+}
+
+.formDiv input{
+    width: 334px;
+    height: 48px;
+    border: 1px solid rgba(23, 23, 25, 0.2);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 12px 15px 12px 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #272727;
+}
+.login{
+    margin-bottom: 20px;
+}
+
+.formDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.button button{
+    background: #1390E5;
+    border-radius: 5px;
+    width: 176px;
+    height: 52px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color:#ffff;
+    border: none;
+    margin-top: 54px;
+    outline: none;
+}
+
+
+.formDiv input:focus{
+    background: rgba(197, 228, 249, 0.3);
+    border: 1px solid #1390E5;
+    outline: none;
+}
+
+
+.formDiv i {
+    color: rgba(23, 23, 25, 0.3);
+    position: absolute;
+    right: 10px;
+    top: 43%;
+    cursor: pointer;
+}
+
+.password{
+    position: relative;
+}
+
+.formDiv p {
+    color: rgba(230, 18, 18, 0.8);
+    position: absolute;
+    bottom: 20%;
+}

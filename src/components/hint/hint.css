@@ -1,0 +1,58 @@
+.blockSearch .twoHint{
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid #5a525270;
+    width: 200px;
+    height: 50px;
+    border-radius: 5%;
+    right: 300px;
+    top: -66px;
+    color: black;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    transition: linear .2s;
+   
+}
+
+ .blockSearch .hint{
+     position: absolute;
+     height: 50px;
+     width: 0;
+     overflow: hidden;
+     border: none;
+     transition: ease-in .2s;
+}
+
+.twoHint div{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: -11px;
+    border: 1px solid #5a525270;
+    border-top: none;
+    border-left: none;
+    transform: rotate(45deg);
+    background-color: #ffffff
+}
+
+.twoHint .hintText {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 16px;
+    width: 100%;
+    text-align: center;
+    transition: ease-in 0.3s;
+}
+
+
+
+.hint .noText{
+    width: 0;
+    transition: ease-in 0.3s;
+}
+
